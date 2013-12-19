@@ -28,7 +28,6 @@ UserActivity.prototype.render = function (element) {
     element = document.querySelector(element);
   }
 
-  var self = this;
   var div = document.createElement('div');
   var ul = document.createElement('ul');
   div.appendChild(ul);
@@ -39,8 +38,8 @@ UserActivity.prototype.render = function (element) {
     for (var i = 0, l = data.length; i < l; i++) {
       var event = data[i];
       var li = document.createElement('li');
-      li.innerHTML = self.templates[event.type]
-        ? minstache(self.templates[event.type], event)
+      li.innerHTML = this.templates[event.type]
+        ? minstache(this.templates[event.type], event)
         : '<!--\n' + JSON.stringify(event, null, 2) + '\n-->';
       ul.appendChild(li);
     }
