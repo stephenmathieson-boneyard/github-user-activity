@@ -1,0 +1,18 @@
+.github-user-activity {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif;
+  line-height: 1.4;
+}
+
+.github-user-activity ul {
+  margin: 0;
+  padding: 0;
+}
+
+.github-user-activity li {
+  list-style-type: none;
+}
+
+.github-user-activity a {
+  font-weight: bold;
+  font-size: 14px;
+}

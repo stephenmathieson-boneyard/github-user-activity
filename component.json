@@ -1,0 +1,20 @@
+{
+  "name": "github-user-activity",
+  "repo": "stephenmathieson/github-user-activity",
+  "version": "0.0.0",
+  "dependencies": {
+    "LearnBoost/jsonp": "*",
+    "component/emitter": "*",
+    "visionmedia/minstache": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "github-user-activity.css"
+  ],
+  "remotes": []
+}
